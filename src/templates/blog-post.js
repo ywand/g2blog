@@ -45,7 +45,6 @@ class BlogPostTemplate extends React.Component {
             }}
           />
           <footer>
-            <Bio />
           </footer>
         </article>
 

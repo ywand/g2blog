@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/g2blog',
   siteMetadata: {
     title: `g2blog`,
     author: `ywand`,
@@ -42,6 +43,12 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              rel: "noopener noreferrer"
+            }
+          },
         ],
       },
     },
@@ -74,5 +81,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    'gatsby-plugin-styled-components',
   ],
 }

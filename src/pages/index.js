@@ -20,16 +20,17 @@ class BlogIndex extends React.Component {
           return (
             <article key={node.fields.slug}>
               <header>
-                <h3
+                {node.frontmatter.date}
+                <h2
                   style={{
-                    marginBottom: rhythm(1 / 4),
+                    marginTop: 0,
+                    marginBottom: rhythm(2 / 4),
                   }}
                 >
                   <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                     {title}
                   </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
+                </h2>
               </header>
               <section>
                 <p
@@ -63,9 +64,10 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "YYYY/MM/DD")
             title
             description
+            tags
           }
         }
       }

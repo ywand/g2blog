@@ -1,14 +1,14 @@
 ---
-title: Github PagesでGatsbyを公開するまでのメモ
+title: GitHub PagesでGatsbyを公開するまでのメモ
 date: "2019-09-19 20:53:00"
-description: Gatsbyで作ったサイトをGithub Pagesに公開するまで手順を書き留めておきます.
-tags: [Gatsby, Github, Github Pages]
+description: Gatsbyで作ったサイトをGitHub Pagesに公開するまで手順を書き留めておきます.
+tags: [Gatsby, GitHub, GitHub Pages]
 ---
 
 いったん簡易的メモ書きとしておいて、気が向いたら追記予定です.   
 [Node.js](https://nodejs.org/ja/)、npm、[Git](https://git-scm.com/)などのインストールと使い方、  
-[Github](https://github.co.jp/)のアカウント作成については別記事にまとめます.  
-(gitlabの方でも静的サイト公開が可能らしいのでそっちでも試してみたいですね)
+[GitHub](https://github.co.jp/)のアカウント作成については別記事にまとめます.  
+([GitLab](https://gitlab.com/)の方でも静的サイト公開が可能らしいのでそっちでも試してみたいですね)
 
 
 ## 1. Gatsbyインストール
@@ -18,10 +18,10 @@ gatsby new myblog https://github.com/gatsbyjs/gatsby-starter-blog
 ```
 
 npmを使用してgatsbyをインストールします.  
-その後、スターターキットをベースにしてプロジェクトを作成します.  
-今回は `gatsby-starter-blog` をベースに使用しました.  
+その後、`gatsby new`でスターターキットをベースにしてプロジェクトを作成します.  
+今回はgatsby-starter-blogをベースに使用しました.  
 シンプルな作りでカスタマイズを自分でするタイプのスターターキットです.  
-(最初からリッチな物で始めたい時は[こちらを参考に](https://dvg.179.jp/201803-gatsby-starter/))
+(最初からリッチな物で始めたい時は[こちらを参考に選択します](https://www.gatsbyjs.org/starters/?v=2))
 
 
 ## 2. ローカルでの動作確認
@@ -60,8 +60,8 @@ module.exports = {
 }
 ```
 
-`myblog/gatsby-config.js`の`siteMetadata`を自分用に修正します.  
-`siteUrl`などを公開用のGithub Pagesに合わせる形にしました.  
+`myblog/gatsby-config.js`のsiteMetadataを自分用に修正します.  
+siteUrlなどを公開用のGithub Pagesに合わせる形にしました.  
 `gatsby new`で作成するプロジェクト名とレポジトリ名を合わせておくと楽です.   
 
 

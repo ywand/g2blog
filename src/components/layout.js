@@ -1,7 +1,26 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import { rhythm, scale } from "../utils/typography"
+import styled from "styled-components"
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
+const Title = styled.h1`
+  margin-bottom: 1vh;
+  margin-top: 0vh;
+  fontFamily: Montserrat, sans-serif;
+`;
+
+const Container = styled.div`
+  margin: 2vh auto;
+  Width: 80vw;
+  height: 100vh;
+`
+
+const TitleLink = styled(Link)`
+  box-Shadow: none;
+  text-Decoration: none;
+  color: inherit;
+`
+
 
 class Layout extends React.Component {
   render() {
@@ -11,54 +30,23 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
+        <Title>
+          <TitleLink to={`/`}>
             {title}
-          </Link>
-        </h1>
+          </TitleLink>
+        </Title>
       )
     } else {
       header = (
-        <h1
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
+        <Title>
+          <TitleLink to={`/`}>
             {title}
-          </Link>
-        </h1>
+          </TitleLink>
+        </Title>
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
-        }}
-      >
+      <Container>
         <header>{header}</header>
         <main>{children}</main>
         <footer>
@@ -66,7 +54,7 @@ class Layout extends React.Component {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
-      </div>
+      </Container>
     )
   }
 }

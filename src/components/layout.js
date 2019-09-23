@@ -11,8 +11,9 @@ const Title = styled.h1`
 
 const Container = styled.div`
   margin: 2vh auto;
+  padding: 0;
   Width: 80vw;
-  height: 100vh;
+  height: 95vh;
 `
 
 const TitleLink = styled(Link)`

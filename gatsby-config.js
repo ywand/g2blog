@@ -46,7 +46,7 @@ module.exports = {
               classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
-              showLineNumbers: true,
+              showLineNumbers: false,
               noInlineHighlight: false,
             },
           },
@@ -73,8 +73,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `g2blog`,
+        short_name: `g2blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

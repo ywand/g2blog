@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[g2blog]]></title><description><![CDATA[Javascriptで作ったり遊んだりしながら勉強中.そのメモ書きをGatsbyでやってみる.]]></description><link>https://ywand.github.io/g2blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 Sep 2019 02:16:41 GMT</lastBuildDate><item><title><![CDATA[Gatsbyブログ上に将来的に追加したい機能]]></title><description><![CDATA[gatsby-starter-blog…]]></description><link>https://ywand.github.io/g2blog/201909/future-updates/</link><guid isPermaLink="false">https://ywand.github.io/g2blog/201909/future-updates/</guid><pubDate>Sat, 21 Sep 2019 23:30:00 GMT</pubDate><content:encoded>&lt;p&gt;gatsby-starter-blogを使用してブログを開始できたのは良かったんですが、&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[g2blog]]></title><description><![CDATA[Javascriptで作ったり遊んだりしながら勉強中.そのメモ書きをGatsbyでやってみる.]]></description><link>https://ywand.github.io/g2blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 Sep 2019 03:47:50 GMT</lastBuildDate><item><title><![CDATA[Gatsbyブログ上に将来的に追加したい機能]]></title><description><![CDATA[gatsby-starter-blog…]]></description><link>https://ywand.github.io/g2blog/201909/future-updates/</link><guid isPermaLink="false">https://ywand.github.io/g2blog/201909/future-updates/</guid><pubDate>Sat, 21 Sep 2019 23:30:00 GMT</pubDate><content:encoded>&lt;p&gt;gatsby-starter-blogを使用してブログを開始できたのは良かったんですが、&lt;br&gt;
 とてもシンプルな構成のスターターキットなため、&lt;br&gt;
 色々と一般的なブログにあるような機能が足りていない状況です。&lt;br&gt;
 (最初からサイトとしてまともに動かしたいなら&lt;a href=&quot;https://www.gatsbyjs.org/starters/?v=2&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;他のスターターの方&lt;/a&gt;が良さそうです)&lt;/p&gt;
@@ -53,30 +53,30 @@ Gatsbyを調べると大量に出てくる&lt;a href=&quot;https://www.netlify.c
 &lt;p&gt;他にもまだまだ必要そうな物があるので、&lt;br&gt;
 そこはまた気が付いたらこちらの記事に追記していこうと思います。&lt;br&gt;
 (作品ギャラリー、スマホフレンドリー、様々なjsライブラリとの連携、アクセス解析など)&lt;/p&gt;
-&lt;p&gt;そういえば、記事に追記した時には、追記日を載せる機能も欲しいなぁ～。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub PagesでGatsbyを公開するまでのメモ]]></title><description><![CDATA[いったん簡易的メモ書きとしておいて、気が向いたら追記予定です. Node.js、npm、Gitなどのインストールと使い方、 GitHubのアカウント作成については別記事にまとめます. (GitLabの方でも静的サイト公開が可能らしいのでそっちでも試してみたいですね)…]]></description><link>https://ywand.github.io/g2blog/201909/gatsby-github-pages/</link><guid isPermaLink="false">https://ywand.github.io/g2blog/201909/gatsby-github-pages/</guid><pubDate>Thu, 19 Sep 2019 11:53:00 GMT</pubDate><content:encoded>&lt;p&gt;いったん簡易的メモ書きとしておいて、気が向いたら追記予定です.&lt;br&gt;
+&lt;p&gt;そういえば、記事に追記した時には、追記日を載せる機能も欲しいなぁ～。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub PagesでGatsbyを公開するまでのメモ]]></title><description><![CDATA[いったん簡易的メモ書きとしておいて、気が向いたら追記予定です。 Node.js、npm、Gitなどのインストールと使い方、 GitHubのアカウント作成については別記事にまとめます。 （GitLabの方でも静的サイト公開が可能らしいのでそっちでも試してみたいですね）…]]></description><link>https://ywand.github.io/g2blog/201909/gatsby-github-pages/</link><guid isPermaLink="false">https://ywand.github.io/g2blog/201909/gatsby-github-pages/</guid><pubDate>Thu, 19 Sep 2019 11:53:00 GMT</pubDate><content:encoded>&lt;p&gt;いったん簡易的メモ書きとしておいて、気が向いたら追記予定です。&lt;br&gt;
 &lt;a href=&quot;https://nodejs.org/ja/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Node.js&lt;/a&gt;、npm、&lt;a href=&quot;https://git-scm.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Git&lt;/a&gt;などのインストールと使い方、&lt;br&gt;
-&lt;a href=&quot;https://github.co.jp/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;GitHub&lt;/a&gt;のアカウント作成については別記事にまとめます.&lt;br&gt;
-(&lt;a href=&quot;https://gitlab.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;GitLab&lt;/a&gt;の方でも静的サイト公開が可能らしいのでそっちでも試してみたいですね)&lt;/p&gt;
+&lt;a href=&quot;https://github.co.jp/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;GitHub&lt;/a&gt;のアカウント作成については別記事にまとめます。&lt;br&gt;
+（&lt;a href=&quot;https://gitlab.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;GitLab&lt;/a&gt;の方でも静的サイト公開が可能らしいのでそっちでも試してみたいですね）&lt;/p&gt;
 &lt;h2&gt;1. Gatsbyインストール&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g gatsby
 gatsby new myblog https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;npmを使用してgatsbyをインストールします.&lt;br&gt;
-その後、&lt;code class=&quot;language-text&quot;&gt;gatsby new&lt;/code&gt;でスターターキットをベースにしてプロジェクトを作成します.&lt;br&gt;
-今回はgatsby-starter-blogをベースに使用しました.&lt;br&gt;
-シンプルな作りでカスタマイズを自分でするタイプのスターターキットです.&lt;br&gt;
+&lt;p&gt;npmを使用してgatsbyをインストールします。&lt;br&gt;
+その後、&lt;code class=&quot;language-text&quot;&gt;gatsby new&lt;/code&gt;でスターターキットをベースにしてプロジェクトを作成します。&lt;br&gt;
+今回はgatsby-starter-blogをベースに使用しました。&lt;br&gt;
+シンプルな作りでカスタマイズを自分でするタイプのスターターキットです。&lt;br&gt;
 (最初からリッチな物で始めたい時は&lt;a href=&quot;https://www.gatsbyjs.org/starters/?v=2&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;こちらを参考に選択します&lt;/a&gt;)&lt;/p&gt;
 &lt;h2&gt;2. ローカルでの動作確認&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; myblog
 &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;package.jsonの中に&lt;code class=&quot;language-text&quot;&gt;npm run&lt;/code&gt;で使えるコマンドが記載されてます.  &lt;/p&gt;
+&lt;p&gt;package.jsonの中に&lt;code class=&quot;language-text&quot;&gt;npm run&lt;/code&gt;で使えるコマンドが記載されてます。  &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json:package.json&quot;&gt;&lt;pre class=&quot;language-json:package.json&quot;&gt;&lt;code class=&quot;language-json:package.json&quot;&gt;  &amp;quot;scripts&amp;quot;: {
     &amp;quot;develop&amp;quot;: &amp;quot;gatsby develop&amp;quot;,
     ...
   }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt; コマンドを使っても同じみたいですね.&lt;br&gt;
-これでビルドとローカルサーバーの立ち上げが行われます.&lt;br&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt; コマンドを使っても同じみたいですね。&lt;br&gt;
+これでビルドとローカルサーバーの立ち上げが行われます。&lt;br&gt;
 ブラウザから&lt;a href=&quot;http://localhost:8000/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;http://localhost:8000/&lt;/a&gt;にアクセスすると、&lt;br&gt;
-スターターの初期状態のページが表示されるようになりました.  &lt;/p&gt;
+スターターの初期状態のページが表示されるようになりました。  &lt;/p&gt;
 &lt;h2&gt;3. サイト情報の修正&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js:gatsby-config.js&quot;&gt;&lt;pre class=&quot;language-js:gatsby-config.js&quot;&gt;&lt;code class=&quot;language-js:gatsby-config.js&quot;&gt;module.exports = {
   pathPrefix: &amp;#39;/レポジトリ名&amp;#39;,
@@ -90,63 +90,63 @@ gatsby new myblog https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&l
     },
   },
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;myblog/gatsby-config.js&lt;/code&gt;内のsiteMetadataを自分用に修正します.&lt;br&gt;
-siteUrlなどを公開用のGithub Pagesに合わせる形にしました.&lt;br&gt;
-&lt;code class=&quot;language-text&quot;&gt;gatsby new&lt;/code&gt;で作成するプロジェクト名とレポジトリ名を合わせておくと楽です.   &lt;/p&gt;
-&lt;h2&gt;4. 記事の編集&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;myblog/content/blog/&lt;/code&gt;配下に記事毎のフォルダがあって、&lt;br&gt;
-mdファイルや画像が格納されている状態です.&lt;br&gt;
-これをベースに記事などを自分用に作成する形なります.  &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;myblog/gatsby-config.js&lt;/code&gt;内のsiteMetadataを自分用に修正します。&lt;br&gt;
+siteUrlなどを公開用のGitHub Pagesに合わせる形としました。&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;gatsby new&lt;/code&gt;で作成するプロジェクト名とレポジトリ名を合わせておくと楽です。   &lt;/p&gt;
+&lt;h2&gt;4。 記事の編集&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;myblog/content/blog/&lt;/code&gt;配下に記事毎のフォルダーがあって、&lt;br&gt;
+mdファイルや画像が格納されている状態です。&lt;br&gt;
+これをベースに記事などを自分用に作成する形 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://localhost:8000/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;http://localhost:8000/&lt;/a&gt;の画面をいちいちリロードしなくても、&lt;br&gt;
-mdファイルの保存だけでライブプレビュー的に編集できるのが凄く便利です.&lt;/p&gt;
-&lt;p&gt;ちなみにフォルダ名やファイル名が直接記事のURL化されるので、&lt;br&gt;
-記事が管理がしやすいようにお好みで名前付けとフォルダ分けをします.  &lt;/p&gt;
+mdファイルの保存だけでライブプレビュー的に編集できるのが凄く便利です。&lt;/p&gt;
+&lt;p&gt;ちなみにフォルダー名やファイル名が直接記事のURL化されるので、&lt;br&gt;
+記事が管理しやすいように、お好みで名前付けとフォルダー分けをします。  &lt;/p&gt;
 &lt;h2&gt;5. プロフィールの修正&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;myblog/src/components/Bio.js&lt;/code&gt;でプロフィールを編集します.  &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;myblog/src/components/Bio.js&lt;/code&gt;でプロフィールを編集します。  &lt;/p&gt;
 &lt;p&gt;もしプロフィール表示部分が不要な場合は、&lt;br&gt;
 &lt;code class=&quot;language-text&quot;&gt;myblog/src/pages/index.js&lt;/code&gt;内にある&lt;code class=&quot;language-text&quot;&gt;&amp;lt;Bio /&amp;gt;&lt;/code&gt;というJSXタグを削除すれば、&lt;br&gt;
-ページからプロフィールコンポーネントが削除されます.&lt;/p&gt;
+ページからプロフィールコンポーネントが削除されます。  &lt;/p&gt;
 &lt;h2&gt;6. gh-pagesのインストール&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt;をインストールして、ビルド後の静的ファイルをデプロイできるようにします.  &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt;をインストールして、ビルド後の静的ファイルをデプロイできるようにします。  &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json:package.json&quot;&gt;&lt;pre class=&quot;language-json:package.json&quot;&gt;&lt;code class=&quot;language-json:package.json&quot;&gt;  &amp;quot;scripts&amp;quot;: {
     ...
     &amp;quot;deploy&amp;quot;: &amp;quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public&amp;quot;,
   }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;に追加すると、&lt;code class=&quot;language-text&quot;&gt;myblog/public&lt;/code&gt;内にあるビルド後の静的ファイルが、&lt;br&gt;
-gh-pagesブランチとしてデプロイされるようになります.&lt;br&gt;
+gh-pagesブランチとしてデプロイされるようになります。&lt;br&gt;
 &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt;にpathPrefixを追加しておかないと、&lt;br&gt;
-デプロイ後のサイト内リンクのURLが上手く設定されないので注意が必要です.  &lt;/p&gt;
+デプロイ後のサイト内リンクのURLが上手く設定されないので注意が必要です。  &lt;/p&gt;
 &lt;h2&gt;7. GitHub Pagesでの公開&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin https://github.com/ユーザー名/レポジトリ名.git
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m &lt;span class=&quot;token string&quot;&gt;&quot;new blog with gatsby!&quot;&lt;/span&gt;
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push -u origin master
 &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;masterブランチにGatsbyプロジェクトをプッシュします.&lt;br&gt;
-&lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt;でgh-pagesが動いでgh-pageブランチが作成されます.&lt;br&gt;
+&lt;p&gt;masterブランチにGatsbyプロジェクトをプッシュします。&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt;でgh-pagesが動いでgh-pageブランチが作成されます。&lt;br&gt;
 最後に、GitHubのリポジトリ設定からGitHub Pagesの項目を&lt;br&gt;
-&lt;code class=&quot;language-text&quot;&gt;Source gh-pages branch&lt;/code&gt;に設定すると公開完了になります.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[hello, world! by Gatsby]]></title><description><![CDATA[Gatsbyでのhello, world.    最近はJavascriptで色々作って遊んだりしながら勉強中です. そのメモ書きをGatsbyでやってみます.   最初は便利なjsライブラリを探してて、Vue.js系の方に興味を持ったんですけどね. どうやらReact…]]></description><link>https://ywand.github.io/g2blog/201909/hello-world/</link><guid isPermaLink="false">https://ywand.github.io/g2blog/201909/hello-world/</guid><pubDate>Tue, 17 Sep 2019 13:56:00 GMT</pubDate><content:encoded>&lt;p&gt;Gatsbyでのhello, world.   &lt;/p&gt;
-&lt;p&gt;最近はJavascriptで色々作って遊んだりしながら勉強中です.&lt;br&gt;
-そのメモ書きを&lt;a href=&quot;https://www.gatsbyjs.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Gatsby&lt;/a&gt;でやってみます.  &lt;/p&gt;
-&lt;p&gt;最初は便利なjsライブラリを探してて、&lt;a href=&quot;https://jp.vuejs.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Vue.js&lt;/a&gt;系の方に興味を持ったんですけどね.&lt;br&gt;
-どうやら&lt;a href=&quot;https://ja.reactjs.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;React&lt;/a&gt;の方が、&lt;a href=&quot;https://facebook.github.io/react-native/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;nativeアプリ&lt;/a&gt;とか&lt;a href=&quot;https://facebook.github.io/react-360/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;VR&lt;/a&gt;とか応用範囲が広そうな事を知り、&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;Source gh-pages branch&lt;/code&gt;に設定すると公開完了になります。  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[hello, world! by Gatsby]]></title><description><![CDATA[Gatsbyでのhello, world.    最近はJavaScriptで色々作って遊んだりしながら勉強中です。 そのメモ書きをGatsbyでやってみます。   最初は便利なjsライブラリを探してて、Vue.js系の方に興味を持ったんですけどね。 どうやらReact…]]></description><link>https://ywand.github.io/g2blog/201909/hello-world/</link><guid isPermaLink="false">https://ywand.github.io/g2blog/201909/hello-world/</guid><pubDate>Tue, 17 Sep 2019 13:56:00 GMT</pubDate><content:encoded>&lt;p&gt;Gatsbyでのhello, world.   &lt;/p&gt;
+&lt;p&gt;最近はJavaScriptで色々作って遊んだりしながら勉強中です。&lt;br&gt;
+そのメモ書きを&lt;a href=&quot;https://www.gatsbyjs.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Gatsby&lt;/a&gt;でやってみます。  &lt;/p&gt;
+&lt;p&gt;最初は便利なjsライブラリを探してて、&lt;a href=&quot;https://jp.vuejs.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Vue.js&lt;/a&gt;系の方に興味を持ったんですけどね。&lt;br&gt;
+どうやら&lt;a href=&quot;https://ja.reactjs.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;React&lt;/a&gt;の方が、&lt;a href=&quot;https://facebook.github.io/react-native/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;nativeアプリ&lt;/a&gt;や&lt;a href=&quot;https://facebook.github.io/react-360/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;VR&lt;/a&gt;など応用範囲が広そうな事を知り、&lt;br&gt;
 Reactでアプリやらサイトを作りたいなーって思ってたんですが、&lt;br&gt;
-イチから全部勉強して作ろうとすると、凄く時間がかかってしまうのが分かりました.&lt;br&gt;
+イチから全部勉強して作ろうとすると、凄く時間がかかってしまうのが分かりました。&lt;br&gt;
 (&lt;a href=&quot;https://reacttraining.com/react-router/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;react-router&lt;/a&gt;、&lt;a href=&quot;https://redux.js.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;redux&lt;/a&gt;、redux-saga、&lt;a href=&quot;https://babeljs.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;babel&lt;/a&gt;、&lt;a href=&quot;https://webpack.js.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;webpack&lt;/a&gt;、CSS関連、etc…)&lt;/p&gt;
 &lt;p&gt;なので、もっと簡単に色々試せて面白そうな物がないかな？&lt;br&gt;
-って感じで探してたら見つけたのがGatsbyでした.  &lt;/p&gt;
+って感じで探してたら見つけたのがGatsbyでした。  &lt;/p&gt;
 &lt;p&gt;Gatsbyは、&lt;br&gt;
-— &lt;a href=&quot;https://graphql.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Graphql&lt;/a&gt;とか流行最先端が使われてる静的サイトジェネレーター.&lt;br&gt;
-— 記事を&lt;a href=&quot;https://www.markdown.jp/what-is-markdown/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Markdown&lt;/a&gt;で書ける.&lt;br&gt;
-— Webサイトの高速化技術が色々入ってる(仮想DOM、SPA、SSR、リンク先読みなど).&lt;br&gt;
-— DBとか使ってないからセキュアな運用が楽.&lt;br&gt;
-— とにかく無料 (サーバー側のコストも特に考えなくて良い).&lt;br&gt;
-— 導入が簡単ですぐに試せる.&lt;/p&gt;
-&lt;p&gt;調べてみると、こんな宣伝文句が沢山あったりするので、&lt;br&gt;
-そりゃあホイホイ手を出しちゃいますよねって話です.  &lt;/p&gt;
-&lt;p&gt;あとやっぱりなんか強そうですよね、仮想DOMって.&lt;br&gt;
-名前が格好良いですよね、静的サイトジェネレーターって.&lt;br&gt;
-言葉にした時の響きとか気持ち良さも重要だと思います.&lt;br&gt;
-(Gatsbyって名前もなんとなく好き)  &lt;/p&gt;
+— &lt;a href=&quot;https://graphql.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Graphql&lt;/a&gt;とか流行最先端が使われてる静的サイトジェネレーター&lt;br&gt;
+— 記事を&lt;a href=&quot;https://www.markdown.jp/what-is-markdown/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Markdown&lt;/a&gt;で書ける&lt;br&gt;
+— Webサイトの高速化技術が色々入ってる（仮想DOM、SPA、SSR、リンク先読みなど）&lt;br&gt;
+— DBとか使ってないからセキュアな運用が楽&lt;br&gt;
+— とにかく無料（サーバー側のコストもとくに考えなくて良い）&lt;br&gt;
+— 導入が簡単ですぐに試せる&lt;/p&gt;
+&lt;p&gt;調べてみると、こんな宣伝文句がたくさんあったりするので、&lt;br&gt;
+そりゃあホイホイ手を出しちゃいますよねって話です。  &lt;/p&gt;
+&lt;p&gt;あとやっぱりなんか強そうですよね、仮想DOMって。&lt;br&gt;
+名前が格好良いですよね、静的サイトジェネレーターって。&lt;br&gt;
+言葉にした時の響きとか気持ち良さも重要だと思います。&lt;br&gt;
+（Gatsbyって名前もなんとなく好き）  &lt;/p&gt;
 &lt;p&gt;まぁ、こんな感じでちょこちょこ書いていけたら良いな、と思います。&lt;br&gt;
-それではよろしくお願いします.&lt;/p&gt;</content:encoded></item></channel></rss>
+それではよろしくお願いします。  &lt;/p&gt;</content:encoded></item></channel></rss>

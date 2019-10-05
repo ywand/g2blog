@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 import styled from "styled-components"
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
+
 const Title = styled.h1`
   margin-bottom: 1vh;
   margin-top: 0vh;
@@ -10,19 +11,34 @@ const Title = styled.h1`
 `;
 
 const Container = styled.div`
-  margin: 2vh auto;
+  fontFamily: sans-serif;
+  margin: 2vh auto 2vh auto;
   padding: 0;
-  Width: 80vw;
-  height: 95vh;
+  width: 80vw;
+  height: 96vh;
 `
 
 const TitleLink = styled(Link)`
-  box-Shadow: none;
-  text-Decoration: none;
+  box-shadow: none;
+  text-decoration: none;
   color: inherit;
 `
 
+const FloatMenu = styled.div`
+  display: block;
+  width: 80vw;
+  height: 5vh;
+  background-color: #888888;
+  opacity: 0.8;
+  bottom: 0;
+  text-align: center;
+  position: fixed;
+`
 
+const Footer = styled.footer`
+  height: 4vh;
+  margin: 0 0 4vh 0;
+`
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -50,11 +66,11 @@ class Layout extends React.Component {
       <Container>
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
+        <Footer>
           © {new Date().getFullYear()} ywand, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </Footer>
       </Container>
     )
   }

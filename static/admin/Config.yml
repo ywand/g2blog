@@ -1,0 +1,22 @@
+backend:
+  name: github           # 管理サービス名
+  repo: ywand/g2blog # GitLubのリポジトリ　「https://gitlab.com/」の後ろの部分
+  branch: master         # ブランチ名
+
+media_folder: "/cotent/assets" # 画像の置き場所
+public_folder: "/public" # ビルド後の配置場所
+
+collections:
+  - label: "Blog" # 管理画面のサイドバーで使う
+    name: "blog" # 管理画面のパスで使う　例：/admin/collections/blog
+    folder: "content/blog/{{year}{month}}" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
+    create: true # 新しいページを作ることを許可する
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Markdownのファイル名　例：YYYY-MM-DD-title.md
+    fields: # ページ作成画面で使う。Front Matterの値を書く
+      - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "公開日", name: "date", widget: "datetime"}
+      - {label: 'カテゴリ', name: 'category', widget: 'list' }
+      - {label: 'タグ', name: 'tags', widget: 'list' }
+      - {label: '概要', name: 'description', widget: 'text' }
+      - {label: "本文", name: "body", widget: "markdown"}
+      - {label: "サムネイル画像", name: "thumbnail", widget: "image", required: false}
